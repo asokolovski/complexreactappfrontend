@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react"
-import Page from "./page"
+import Page from "./Page"
 import { useParams, Link, useNavigate } from "react-router-dom"
 import Axios from "axios"
 import LoadingDotsIcon from "./LoadingDotsIcon"

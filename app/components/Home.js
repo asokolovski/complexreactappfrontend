@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from "react"
-import Page from './page'
+import Page from './Page'
 import StateContext from "../StateContext"
 import { useImmer } from "use-immer"
 import LoadingDotsIcon from "./LoadingDotsIcon"

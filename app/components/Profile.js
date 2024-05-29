@@ -1,5 +1,5 @@
 import React, { useEffect, useContext } from "react"
-import Page from "./page"
+import Page from "./Page"
 import { useParams, NavLink, Routes, Route } from "react-router-dom"
 import Axios from "axios"
 import StateContext from "../StateContext"

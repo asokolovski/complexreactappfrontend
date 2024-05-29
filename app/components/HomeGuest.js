@@ -1,5 +1,5 @@
 import React,{useEffect, useState, useContext} from 'react'
-import Page from './page'
+import Page from './Page'
 import Axios from 'axios'
 import { useImmerReducer } from 'use-immer'
 import { CSSTransition } from 'react-transition-group'

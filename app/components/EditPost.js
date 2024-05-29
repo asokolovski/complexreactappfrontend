@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react"
 import { useImmerReducer } from "use-immer"
-import Page from "./page"
+import Page from "./Page"
 import { useParams, Link, useNavigate, redirect } from "react-router-dom"
 import Axios from "axios"
 import LoadingDotsIcon from "./LoadingDotsIcon"
