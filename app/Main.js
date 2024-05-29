@@ -25,7 +25,7 @@ import NotFound from './components/NotFound'
 const Search = React.lazy(()=> import("./components/Search"))
 const Chat = React.lazy(()=>import('./components/Chat'))
 import LoadingDotsIcon from './components/LoadingDotsIcon'
-
+import Page from './components/page'
 function Main() {
     const initialState = {
         loggedIn: Boolean(localStorage.getItem("ComlpexappToken")),
