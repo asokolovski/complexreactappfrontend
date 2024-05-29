@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import Page from './Page';
+import Page from './page';
 
 function About(){
     return (

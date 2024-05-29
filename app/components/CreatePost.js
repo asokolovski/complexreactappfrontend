@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from "react"
 import { useNavigate } from "react-router-dom"
-import Page from "./Page"
+import Page from "./page"
 import Axois from "axios"
 import DispatchContext from "../DispatchContext"
 import StateContext from "../StateContext"
